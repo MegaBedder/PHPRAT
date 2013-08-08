@@ -33,7 +33,7 @@ body {
 	height: 24px;
 }
 
-textarea {
+#output {
 	width: 400px;
 	height: 600px;
 	color: #FFF;
@@ -41,6 +41,7 @@ textarea {
 	font-family: Lucida Console;
 	background-color: #000;
 	border: 0;
+	overflow-y: scroll;
 }
 
 input[type=text]  {
