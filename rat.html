@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>RAT Client</title>
+	<link rel="stylesheet" type="text/css" href="rat.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="rat.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">IC RAT Client #GETPWNED</div>
+		<textarea id="output" disabled></textarea>
+		<div id="cwrapper">
+		<input type="text" id="command" name="command" onKeyPress="return enter(event);" onKeyDown="return preventBackspace();" value=">>"
+			onMouseDown="fixSelection();" onMouseUp="fixSelection();">
+		</div>
+	</div>
+</body>
+</html>
